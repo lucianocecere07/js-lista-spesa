@@ -3,6 +3,15 @@ Quando le stampe in console sono corrette, stampare gli elementi in un elenco pu
 
 let arraySpesa = ["latte", "uova", "mele", "pasta", "arance"];
 
-for(i=0; i<arraySpesa.length; i++){
+/*
+for (i = 0; i < arraySpesa.length; i++) {
     console.log("elemento da comprare: " + arraySpesa[i]);
+}
+*/
+
+
+let i = 0;
+while (i < arraySpesa.length) {
+    console.log("elemento da comprare: " + arraySpesa[i]);
+    i++;
 }
