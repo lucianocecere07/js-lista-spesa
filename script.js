@@ -6,7 +6,7 @@ let arraySpesa = ["latte", "uova", "mele", "pasta", "arance"];
 
 for (i = 0; i < arraySpesa.length; i++) {
     console.log("elemento da comprare: " + arraySpesa[i]);
-    document.getElementById("elemento").innerHTML = arraySpesa[i];
+    document.getElementById("elemento").innerHTML += "<li>" + arraySpesa[i] + "</li>";
 }
 
 /*
