@@ -14,7 +14,6 @@ document.getElementById("elemento3").innerHTML = arraySpesa[i=2];
 document.getElementById("elemento4").innerHTML = arraySpesa[i=3];
 document.getElementById("elemento5").innerHTML = arraySpesa[i=4];
 
-
 /*
 let i = 0;
 while (i < arraySpesa.length) {
